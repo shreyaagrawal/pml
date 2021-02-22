@@ -1,0 +1,19 @@
+body{
+    background-image: url("back.gif");
+    color:cornsilk;
+    text-align: center;
+}
+#b_id , #b_snap {
+    color: blue;
+    background-color: black;
+}
+#camera {
+    margin-left: 500px;
+    border: 1px dashed white;
+    width: 300px;
+    height: 350px;
+
+}
+#name_family, #accuracy_family{
+    color:red;
+}

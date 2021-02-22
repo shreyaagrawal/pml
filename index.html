@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>P103</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>IMAGE RECOGINATION</h1>
+<b class="name_of_people">
+    <hr>
+    Mother
+    <hr>
+    Father
+    <hr>
+    Sister
+    <hr>
+    Brother
+    <hr>
+</b>
+<div id="camera"></div>
+<br><br>
+<button onclick="snap()" id="b_snap">Snap</button>
+<br><br>
+<div id="result"></div>
+<br><br>
+<button onclick="check()" id="b_id">Identify Image</button>
+<br><br>
+<p>Name: <span id="name_family"></span></p>
+<br><br>
+<p>Accuracy: <span id="accuracy_family"></span></p>
+<br><br>
+<script src="main.js"></script>
+</body>
+</html>
